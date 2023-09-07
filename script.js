@@ -36,8 +36,8 @@ document.getElementById('btnCalculate').addEventListener('click', function () {
     total = (com-holdback) + com1;
 
     document.getElementById('result').textContent = "Commission: " + com.toLocaleString();
-    document.getElementById('-20%').textContent = "Monthly Holdback: " + holdback.toLocaleString();
     document.getElementById('over').textContent = "Overachievement: " + com1.toLocaleString(); 
+    document.getElementById('-20%').textContent = "Monthly Holdback: " + holdback.toLocaleString();
     document.getElementById('total commission').textContent = "Total Commission: " + total.toLocaleString();
     
     
