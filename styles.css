@@ -1,0 +1,182 @@
+body {
+    font-family: Verdana,Tahoma, sans-serif;
+    background-color: #eef6f6;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: max-content;
+    width: 80%;
+    margin: 50px auto;
+    color: #ccc;
+    background-image: linear-gradient(to bottom right, #011c40, darkcyan);
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+}
+
+.container table{
+    border: 0.1em solid darkcyan;
+    width: 102%;
+    border-collapse:collapse;
+    
+}
+
+.container th, td{
+    border: 0.1em solid darkcyan;
+    padding: 0.5em;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+h1 {
+    position: relative;
+    bottom: 80px;
+    font-size: 30px;
+    background: -webkit-linear-gradient(skyblue, darkcyan);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    color: darkcyan;
+    margin-top: 25px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 17px;
+    font-family:Verdana, Tahoma, sans-serif
+}
+h3{
+    position: relative;
+    text-align: center;
+}
+h4 { 
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+h5{
+    position: relative;
+    text-align: center;
+    bottom: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+h6{
+    position: relative;
+    text-align: center;
+    bottom: 70px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.icis-logo{
+    margin-top: 40px;
+}
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: large;
+}
+label{
+    font-size: larger;  
+}
+p {
+font-family:Verdana,Tahoma, sans-serif;
+position: relative;
+bottom: 40px;
+color: yellow;
+}
+input {
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgb(15, 28, 28);
+    border-radius: 3px;
+}
+
+button {
+    display: block;
+    width: 102%;
+    padding: 10px;
+    background-color: darkcyan;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+button:hover {
+    background-color:darkcyan;
+}
+
+#result {
+    text-align: center;
+    margin-top: 50px;
+}
+.one{
+    color: #ffffff;
+}
+#over{
+    position: relative;
+    text-align: center;
+    bottom: 50px;
+}
+/* Responsive web deisgn: mobile
+@media screen and (max-width: 640px){
+    h1{
+        margin-top: 2em;
+        font-size: 20px;
+    }
+    h2{
+       bottom: 40px;
+       font-size: 13px;
+    }
+    img{
+        width: 12%;
+    }
+    button{
+        width: 104%;
+    }
+    .container{
+        width: auto;
+    }
+    
+}
+/* Tablet view
+@media screen and (min-width: 390px) {
+    h1{
+        font-size: 23px;
+        margin-top: 1em;
+    }
+    h2{
+        bottom: 40px;
+    }
+    button{
+        width: 103%;
+    }
+}
+@media screen and (min-width:961px) {
+   h1{ 
+    position: relative;
+    bottom: 80px;
+    font-size: 40px;
+    text-align: center;
+    color: darkcyan;
+    margin-top: -20px;
+   }
+   button{
+    width: 102%;
+   }
+   h2{
+    font-size: 18px;
+   }
+}*/

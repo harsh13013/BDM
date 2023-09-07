@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commission Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <img class="icis-logo" alt="ICIS Explore" src="https://www.icis.com/explore/wp-content/themes/icis-2020/assets/images/icis-logo.svg">
+        <h1>Monthly Commission Estimator BDM</h1>
+        <h2>This estimator is designed to provide an estimate of your commission. Actual achievements and earnings will be visible in your Xactly Incentive Statement.</h2>
+        <h3>All values must be in USD</h3>
+      
+        
+        <label for="targetRenewal">Monthly New Business Target:</label>
+        <input type="text" id="targetRenewal">
+
+        <label for="salesRenewal">Monthly New Business Sales achieved:</label>
+        <input type="text" id="salesRenewal">
+
+        <button id="btnCalculate">Click here to estimate</button>
+        
+        <h4 id="result">Commission: </h4>
+        <h5 id="-20%">Monthly Holdback: </h5>
+        <h6 id="over">Overachievement: </h6>
+        <h6 id="total commission">Total Commission: </h6>
+        
+      <p class="one">Please note any 10% accelerator for being over year to date target is paid at quater end.</p>
+      <p>The values shown above are for illustrative purposes only please refer to your Xactly Incentive statement for actual calculations.</p>
+     
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
